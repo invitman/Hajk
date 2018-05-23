@@ -184,7 +184,11 @@
 
       layers.done(data => {
         // Set <title> in HTML if map has a title property in JSON config
-        if (map_config.hasOwnProperty('map') && map_config.map.hasOwnProperty('title')) {
+        if (map_config.hasOwnProperty('map') &&
+            map_config.map.hasOwnProperty('title') &&
+            map_config.map.title !== null &&
+            map_config.map.title !== undefined &&
+            map_config.map.title.toString().trim().length > 0) {
           document.title = map_config.map.title;
         }
 
