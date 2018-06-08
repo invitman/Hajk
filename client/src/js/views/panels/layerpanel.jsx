@@ -436,10 +436,9 @@ var LayerPanelView = {
 
     if (this.props.model.get('toggleAllButton')) {
       toggleAllButton = (
-        <i className='fa fa-eye-slash pull-right clickable panel-close'
-          onClick={() => this.toggleAllOff()}
-          title='Släck alla lager'
-        />
+        <div style={{marginBottom: '10px'}}>
+          <button className='btn btn-main btn-inverse' onClick={() => this.toggleAllOff()}>Släck alla lager</button>
+        </div>
       );
     }
 
@@ -462,15 +461,10 @@ var LayerPanelView = {
     }
 
     return (
-      <Panel title='Kartlager'
-        onCloseClicked={this.props.onCloseClicked}
-        onUnmountClicked={this.props.onUnmountClicked}
-        minimized={this.props.minimized}
-        instruction={atob(this.props.model.get('instruction'))}
-        toggleAllButton={toggleAllButton}
-      >
+      <Panel title='Kartlager' onCloseClicked={this.props.onCloseClicked} onUnmountClicked={this.props.onUnmountClicked} minimized={this.props.minimized} instruction={atob(this.props.model.get('instruction'))}>
         <div className='layer-panel'>
           {dropdownThemeMaps}
+          {toggleAllButton}
           <BackgroundSwitcher layers={this.props.model.getBaseLayers()} model={this.props.model} />
           <br />
           {groups}

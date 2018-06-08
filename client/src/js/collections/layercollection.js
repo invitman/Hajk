@@ -19,6 +19,27 @@ var LayerCollection = {
    * @instance
    * @param {Layer} layer - Layer model to add
    */
+
+  findLayers: function(mapGroups, layerId){
+    // check all layers in the group
+    for(var i = 0; i < mapGroups.layers.length; i++){
+      if(mapGroups.layers[i].id === layerId){
+        return mapGroups.layers[i];
+      }
+    }
+    // if could not find, run the function for all possible groups
+      if (typeof mapGroups.groups === "undefined"){
+        return null;
+      }
+      for(var j = 0; j < mapGroups.groups.length; j++){
+      var ret = this.findLayers(mapGroups.groups[j], layerId);
+        if(ret !== null){
+          return ret;
+        }
+      }
+      return null;
+  },
+
   addToMap: function (layer) {
     var map = this.shell.get('map').getMap(),
       olLayer = layer.getLayer();
@@ -28,16 +49,18 @@ var LayerCollection = {
 
     var visibleAtStart = false;
     var found = false;
+
     for (var i = 0; i < this.mapGroups.length; i++) {
-      for (var j = 0; j < this.mapGroups[i].layers.length; j++) {
-        if (layer.get('id') == this.mapGroups[i].layers[j].id) {
-          visibleAtStart = this.mapGroups[i].layers[j].visibleAtStart;
-          found = true;
-          break;
-        }
+      var ret = this.findLayers(this.mapGroups[i], layer.get('id'));
+
+      if(ret !== null){
+        visibleAtStart = ret.visibleAtStart;
+        found = true;
+        break;
       }
     }
 
+    //  If
     if (!found) {
       for (var i = 0; i < this.baseLayers.length; i++) {
         if (layer.get('id') == this.baseLayers[i].id) {
@@ -46,6 +69,11 @@ var LayerCollection = {
           break;
         }
       }
+    }
+
+    if (this.linkLayers.length > 0){
+        var isLayerInUrl = typeof this.linkLayers.find(str => str === layer.get("id")) === 'string';
+        visibleAtStart = isLayerInUrl;
     }
 
     layer.setVisible(visibleAtStart);
@@ -438,6 +466,18 @@ var LayerCollection = {
     var layerSwitcherTool = args.tools.find(tool => tool.type === 'layerswitcher');
     this.mapGroups = layerSwitcherTool.options.groups;
     this.baseLayers = layerSwitcherTool.options.baselayers;
+
+    // Parse the URL-parameters for link parsing of visible layers
+    var urlParams = {};
+    document.location.search.replace(/(^\?)/, '').split('&')
+        .forEach(param => {var a = param.split('=');
+      urlParams[a[0]] = a[1];});
+    try {
+        this.linkLayers = urlParams["l"].split(',');
+    } catch (e) {
+      this.linkLayers = [];
+    }
+
 
     _.defer(_.bind(function () {
       this.forEach(this.addToMap, this);

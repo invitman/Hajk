@@ -60,8 +60,6 @@ const defaultState = {
   infoUrl: '',
   infoUrlText: '',
   infoOwner: '',
-  searchGeometryField: '',
-  attribution: '',
   solpopup: solpop
 };
 
