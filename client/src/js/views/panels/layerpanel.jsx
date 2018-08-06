@@ -436,9 +436,7 @@ var LayerPanelView = {
 
     if (this.props.model.get('toggleAllButton')) {
       toggleAllButton = (
-        <div style={{marginBottom: '10px'}}>
-          <button className='btn btn-main btn-inverse' onClick={() => this.toggleAllOff()}>Släck alla lager</button>
-        </div>
+        <i className='fa fa-eye-slash pull-right clickable panel-close' title='Släck alla lager' onClick={() => this.toggleAllOff()} />
       );
     }
 
