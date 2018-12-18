@@ -1,0 +1,1033 @@
+{
+  "version": "1.0.5",
+  "projections": [
+    {
+      "code": "EPSG:3006",
+      "definition": "+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        181896.33,
+        6101648.07,
+        864416.0,
+        7689478.3
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3006",
+      "definition": "+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        181896.33,
+        6101648.07,
+        864416.0,
+        7689478.3
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3007",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=12 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        60436.5084,
+        6192389.565,
+        217643.4713,
+        6682784.4276
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3007",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=12 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        60436.5084,
+        6192389.565,
+        217643.4713,
+        6682784.4276
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3008",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=13.5 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs ",
+      "extent": [
+        60857.4994,
+        6120098.8505,
+        223225.0217,
+        6906693.7888
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3008",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=13.5 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs ",
+      "extent": [
+        60857.4994,
+        6120098.8505,
+        223225.0217,
+        6906693.7888
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3009",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        56294.0365,
+        6203542.5282,
+        218719.0581,
+        6835499.2391
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3009",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        56294.0365,
+        6203542.5282,
+        218719.0581,
+        6835499.2391
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3010",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=16.5 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        97213.6352,
+        6228930.1419,
+        225141.8681,
+        6916524.0785
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3010",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=16.5 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        97213.6352,
+        6228930.1419,
+        225141.8681,
+        6916524.0785
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3011",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=18 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        96664.5565,
+        6509617.2232,
+        220146.6914,
+        6727103.5879
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3011",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=18 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        96664.5565,
+        6509617.2232,
+        220146.6914,
+        6727103.5879
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3012",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=14.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        30462.5263,
+        6829647.9842,
+        216416.1584,
+        7154168.0208
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3012",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=14.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        30462.5263,
+        6829647.9842,
+        216416.1584,
+        7154168.0208
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3013",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=15.75 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs ",
+      "extent": [
+        34056.6264,
+        6710433.2884,
+        218692.0214,
+        7224144.732
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3013",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=15.75 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs ",
+      "extent": [
+        34056.6264,
+        6710433.2884,
+        218692.0214,
+        7224144.732
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3014",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=17.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        -1420.28,
+        6888655.5779,
+        212669.1333,
+        7459585.3378
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3014",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=17.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        -1420.28,
+        6888655.5779,
+        212669.1333,
+        7459585.3378
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3015",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=18.75 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        58479.4774,
+        6304213.2147,
+        241520.5226,
+        7276832.4419
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3015",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=18.75 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        58479.4774,
+        6304213.2147,
+        241520.5226,
+        7276832.4419
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3016",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=20.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        -93218.3385,
+        7034909.8738,
+        261434.6246,
+        7676279.8691
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3016",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=20.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        -93218.3385,
+        7034909.8738,
+        261434.6246,
+        7676279.8691
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3017",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=21.75 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        67451.0699,
+        7211342.8483,
+        145349.5699,
+        7254837.254
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3017",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=21.75 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        67451.0699,
+        7211342.8483,
+        145349.5699,
+        7254837.254
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3018",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=23.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        38920.7048,
+        7267405.2323,
+        193050.246,
+        7597992.2419
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3018",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=23.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        38920.7048,
+        7267405.2323,
+        193050.246,
+        7597992.2419
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3021",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=15.80827777777778 +k=1 +x_0=1500000 +y_0=0 +ellps=bessel +units=m +no_defs",
+      "extent": [
+        1392811.0743,
+        6208496.7665,
+        1570600.8906,
+        7546077.6984
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3021",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=15.80827777777778 +k=1 +x_0=1500000 +y_0=0 +ellps=bessel +units=m +no_defs",
+      "extent": [
+        1392811.0743,
+        6208496.7665,
+        1570600.8906,
+        7546077.6984
+      ],
+      "units": null
+    }
+  ],
+  "tools": [
+    {
+      "type": "layerswitcher",
+      "options": {
+        "baselayers": [
+          {
+            "id": "58",
+            "visibleAtStart": true,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "72",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "83",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "199",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "108",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "202",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          }
+        ],
+        "groups": [
+          {
+            "id": "80fb6766-5ec5-6bef-4e25-27bee4818722",
+            "parent": "-1",
+            "name": "NVDB",
+            "toggled": false,
+            "expanded": false,
+            "layers": [
+              {
+                "id": "440",
+                "visibleAtStart": false,
+                "drawOrder": 29,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "439",
+                "visibleAtStart": false,
+                "drawOrder": 30,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "365",
+                "visibleAtStart": false,
+                "drawOrder": 31,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "366",
+                "visibleAtStart": false,
+                "drawOrder": 32,
+                "visibleForGroups": [],
+                "infobox": ""
+              }
+            ],
+            "groups": []
+          },
+          {
+            "id": "1a616a9e-68c2-e80c-c941-ab84cfeb2388",
+            "parent": "-1",
+            "name": "MSB",
+            "toggled": false,
+            "expanded": false,
+            "layers": [],
+            "groups": [
+              {
+                "id": "a9cb1386-82ba-c7ae-a1dc-683e481c104b",
+                "parent": "1a616a9e-68c2-e80c-c941-ab84cfeb2388",
+                "name": "Åar",
+                "toggled": false,
+                "expanded": false,
+                "layers": [
+                  {
+                    "id": "361",
+                    "visibleAtStart": false,
+                    "drawOrder": 33,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "363",
+                    "visibleAtStart": false,
+                    "drawOrder": 34,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "362",
+                    "visibleAtStart": false,
+                    "drawOrder": 35,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "358",
+                    "visibleAtStart": false,
+                    "drawOrder": 36,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "360",
+                    "visibleAtStart": false,
+                    "drawOrder": 37,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "359",
+                    "visibleAtStart": false,
+                    "drawOrder": 38,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  }
+                ],
+                "groups": []
+              },
+              {
+                "id": "b6ab4e97-4bb1-848d-5a5f-eb766ae7ff07",
+                "parent": "1a616a9e-68c2-e80c-c941-ab84cfeb2388",
+                "name": "Kust",
+                "toggled": false,
+                "expanded": false,
+                "layers": [
+                  {
+                    "id": "353",
+                    "visibleAtStart": false,
+                    "drawOrder": 28,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "354",
+                    "visibleAtStart": false,
+                    "drawOrder": 39,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "355",
+                    "visibleAtStart": false,
+                    "drawOrder": 40,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "356",
+                    "visibleAtStart": false,
+                    "drawOrder": 41,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "357",
+                    "visibleAtStart": false,
+                    "drawOrder": 42,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  }
+                ],
+                "groups": []
+              }
+            ]
+          },
+          {
+            "id": "0b4023ce-1f64-ea48-8296-960ad9085150",
+            "parent": "-1",
+            "name": "Fastigheter",
+            "toggled": false,
+            "expanded": false,
+            "layers": [
+              {
+                "id": "84",
+                "visibleAtStart": false,
+                "drawOrder": 44,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "188",
+                "visibleAtStart": false,
+                "drawOrder": 45,
+                "visibleForGroups": [],
+                "infobox": ""
+              }
+            ],
+            "groups": []
+          },
+          {
+            "id": "f99c5d20-3cad-bd78-5f0f-602bc20fdc2e",
+            "parent": "-1",
+            "name": "Historiskt",
+            "toggled": false,
+            "expanded": false,
+            "layers": [],
+            "groups": [
+              {
+                "id": "98c62b9d-1a8f-77cf-1ee6-ceab4e94e4a2",
+                "parent": "f99c5d20-3cad-bd78-5f0f-602bc20fdc2e",
+                "name": "Flygfoto",
+                "toggled": false,
+                "expanded": false,
+                "layers": [
+                  {
+                    "id": "201",
+                    "visibleAtStart": false,
+                    "drawOrder": 46,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "109",
+                    "visibleAtStart": false,
+                    "drawOrder": 47,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "110",
+                    "visibleAtStart": false,
+                    "drawOrder": 48,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  }
+                ],
+                "groups": []
+              },
+              {
+                "id": "1c21c418-05bd-f41e-d8c0-cf7a4a320f27",
+                "parent": "f99c5d20-3cad-bd78-5f0f-602bc20fdc2e",
+                "name": "Ekonomiska karta",
+                "toggled": false,
+                "expanded": false,
+                "layers": [
+                  {
+                    "id": "111",
+                    "visibleAtStart": false,
+                    "drawOrder": 49,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "112",
+                    "visibleAtStart": false,
+                    "drawOrder": 25,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  }
+                ],
+                "groups": []
+              }
+            ]
+          },
+          {
+            "id": "61a7a757-b0a6-570c-91ed-8a1022d2fcef",
+            "parent": "-1",
+            "name": "Händelser, störningsrapporter",
+            "toggled": false,
+            "expanded": false,
+            "layers": [],
+            "groups": [
+              {
+                "id": "ff2ac909-aadb-5320-534a-49c35eaa3331",
+                "parent": "61a7a757-b0a6-570c-91ed-8a1022d2fcef",
+                "name": "Riskhanteringsgruppen (RHG)",
+                "toggled": true,
+                "expanded": false,
+                "layers": [
+                  {
+                    "id": "496",
+                    "visibleAtStart": false,
+                    "drawOrder": 3,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "495",
+                    "visibleAtStart": false,
+                    "drawOrder": 4,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "494",
+                    "visibleAtStart": false,
+                    "drawOrder": 5,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "493",
+                    "visibleAtStart": false,
+                    "drawOrder": 6,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "492",
+                    "visibleAtStart": false,
+                    "drawOrder": 7,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "491",
+                    "visibleAtStart": false,
+                    "drawOrder": 8,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "490",
+                    "visibleAtStart": false,
+                    "drawOrder": 9,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "489",
+                    "visibleAtStart": false,
+                    "drawOrder": 10,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "488",
+                    "visibleAtStart": false,
+                    "drawOrder": 11,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "487",
+                    "visibleAtStart": false,
+                    "drawOrder": 12,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "486",
+                    "visibleAtStart": false,
+                    "drawOrder": 13,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  }
+                ],
+                "groups": []
+              },
+              {
+                "id": "a560dc23-1158-e99c-d8ea-91efcf832359",
+                "parent": "61a7a757-b0a6-570c-91ed-8a1022d2fcef",
+                "name": "Effektiv samordning för trygghet (EST)",
+                "toggled": true,
+                "expanded": false,
+                "layers": [
+                  {
+                    "id": "474",
+                    "visibleAtStart": false,
+                    "drawOrder": 14,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "478",
+                    "visibleAtStart": false,
+                    "drawOrder": 15,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "475",
+                    "visibleAtStart": false,
+                    "drawOrder": 16,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "479",
+                    "visibleAtStart": false,
+                    "drawOrder": 17,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "471",
+                    "visibleAtStart": false,
+                    "drawOrder": 26,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "466",
+                    "visibleAtStart": false,
+                    "drawOrder": 43,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "476",
+                    "visibleAtStart": false,
+                    "drawOrder": 18,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "480",
+                    "visibleAtStart": false,
+                    "drawOrder": 19,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "481",
+                    "visibleAtStart": false,
+                    "drawOrder": 20,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "482",
+                    "visibleAtStart": false,
+                    "drawOrder": 21,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "477",
+                    "visibleAtStart": false,
+                    "drawOrder": 22,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "483",
+                    "visibleAtStart": false,
+                    "drawOrder": 23,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "470",
+                    "visibleAtStart": false,
+                    "drawOrder": 27,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "484",
+                    "visibleAtStart": false,
+                    "drawOrder": 24,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  }
+                ],
+                "groups": []
+              },
+              {
+                "id": "e5f1f7ea-bc55-918b-52ea-796a3cc72a43",
+                "parent": "61a7a757-b0a6-570c-91ed-8a1022d2fcef",
+                "name": "Översikt - aktualitet",
+                "toggled": true,
+                "expanded": false,
+                "layers": [
+                  {
+                    "id": "468",
+                    "visibleAtStart": false,
+                    "drawOrder": 2,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  },
+                  {
+                    "id": "469",
+                    "visibleAtStart": false,
+                    "drawOrder": 1,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  }
+                ],
+                "groups": []
+              }
+            ]
+          }
+        ],
+        "instruction": "",
+        "active": true,
+        "visibleAtStart": true,
+        "backgroundSwitcherBlack": false,
+        "backgroundSwitcherWhite": true,
+        "toggleAllButton": false,
+        "dropdownThemeMaps": false,
+        "themeMapHeaderCaption": null,
+        "visibleForGroups": []
+      },
+      "index": 0
+    },
+    {
+      "type": "preset",
+      "options": {
+        "presetList": [
+          {
+            "name": "Halmstadkartan",
+            "presetUrl": "?m=map_1"
+          },
+          {
+            "name": "Bygglovskartan",
+            "presetUrl": "?m=bl"
+          }
+        ],
+        "instruction": ""
+      },
+      "index": 0
+    },
+    {
+      "type": "location",
+      "options": {},
+      "index": 0
+    },
+    {
+      "type": "infoclick",
+      "options": {
+        "displayPopup": false,
+        "markerImg": "assets/icons/marker.png",
+        "anchor": [
+          16,
+          32
+        ],
+        "imgSize": [
+          32,
+          32
+        ],
+        "popupOffsetY": 0
+      },
+      "index": 0
+    },
+    {
+      "type": "measure",
+      "options": {
+        "instruction": "",
+        "icons": ""
+      },
+      "index": 0
+    },
+    {
+      "type": "streetview",
+      "options": {
+        "apiKey": "AIzaSyCb-bvLmybNb4QSERR43eGlvvQyUrBAQG4",
+        "instruction": "",
+        "visibleForGroups": []
+      },
+      "index": 0
+    },
+    {
+      "type": "search",
+      "options": {
+        "onMap": false,
+        "bothSynlig": false,
+        "enableViewTogglePopupInSnabbsok": true,
+        "toolbar": "bottom",
+        "maxZoom": 14,
+        "markerImg": "http://localhost/hajk/assets/icons/marker.png",
+        "kmlExportUrl": "/mapservice/export/kml",
+        "excelExportUrl": "/mapservice/export/excel",
+        "displayPopup": true,
+        "selectionTools": true,
+        "base64Encode": false,
+        "instruction": "",
+        "filterVisible": true,
+        "anchor": [
+          16,
+          32
+        ],
+        "imgSize": [
+          32,
+          32
+        ],
+        "popupOffsetY": 0,
+        "visibleForGroups": [],
+        "layers": []
+      },
+      "index": 0
+    },
+    {
+      "type": "information",
+      "options": {
+        "text": "Vid önskemål och synpunkter, kontakta GIS-gruppen på mejl:\ngit.gis@halmstad.se",
+        "headerText": "Internkarta för räddningstjänsten",
+        "visibleAtStart": false,
+        "showInfoOnce": false,
+        "base64EncodeForInfotext": false,
+        "visibleForGroups": []
+      },
+      "index": 0
+    },
+    {
+      "type": "export",
+      "options": {
+        "exportUrl": "/mapservice/export/pdf",
+        "exportTiffUrl": "/mapservice/export/tiff",
+        "pdfActive": true,
+        "tiffActive": true,
+        "base64Encode": false,
+        "autoScale": false,
+        "scales": [
+          250,
+          500,
+          1000,
+          2500,
+          5000,
+          10000,
+          25000,
+          50000,
+          100000,
+          250000
+        ],
+        "proxyUrl": "",
+        "instruction": "",
+        "visibleForGroups": []
+      },
+      "index": 0
+    },
+    {
+      "type": "draw",
+      "options": {
+        "exportUrl": "/mapservice/export/kml",
+        "importUrl": "/mapservice/import/kml",
+        "base64Encode": false,
+        "instruction": "",
+        "icons": "",
+        "proxyUrl": "",
+        "visibleForGroups": []
+      },
+      "index": 0
+    },
+    {
+      "type": "buffer",
+      "options": {
+        "instruction": "",
+        "varbergVer": false,
+        "geoserverUrl": "",
+        "notFeatureLayers": [],
+        "visibleForGroups": []
+      },
+      "index": 0
+    }
+  ],
+  "map": {
+    "target": "map",
+    "center": [
+      110600,
+      6283796
+    ],
+    "title": "Räddningstjänsten (beta)",
+    "projection": "EPSG:3008",
+    "zoom": 2,
+    "maxZoom": 0,
+    "minZoom": 9,
+    "resolutions": [
+      55.999999999999993,
+      27.999999999999996,
+      13.999999999999998,
+      6.9999999999999991,
+      2.8,
+      1.4,
+      0.55999999999999994,
+      0.28,
+      0.112,
+      0.056
+    ],
+    "origin": [
+      81394.931067557744,
+      6268045.9605340268
+    ],
+    "extent": [
+      81394.931067557744,
+      6268045.9605340268,
+      139898.91125035787,
+      6314907.3857185328
+    ],
+    "logo": "assets/logo.png",
+    "infologo": "",
+    "geoserverLegendOptions": "fontName:Lato;fontAntiAliasing:true;fontColor:0x000033;fontSize:14;bgColor:0xFFFFFF;dpi:90;forceLabels:on",
+    "mobileleft": null,
+    "mobileright": null,
+    "pil": null,
+    "mobile": true,
+    "colors": {
+      "primaryColor": "#0a478b",
+      "secondaryColor": "#ffffff"
+    }
+  }
+}

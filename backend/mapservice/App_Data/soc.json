@@ -1,0 +1,720 @@
+{
+  "version": "1.0.5",
+  "projections": [
+    {
+      "code": "EPSG:3006",
+      "definition": "+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        181896.33,
+        6101648.07,
+        864416.0,
+        7689478.3
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3006",
+      "definition": "+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        181896.33,
+        6101648.07,
+        864416.0,
+        7689478.3
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3007",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=12 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        60436.5084,
+        6192389.565,
+        217643.4713,
+        6682784.4276
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3007",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=12 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        60436.5084,
+        6192389.565,
+        217643.4713,
+        6682784.4276
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3008",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=13.5 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs ",
+      "extent": [
+        60857.4994,
+        6120098.8505,
+        223225.0217,
+        6906693.7888
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3008",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=13.5 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs ",
+      "extent": [
+        60857.4994,
+        6120098.8505,
+        223225.0217,
+        6906693.7888
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3009",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        56294.0365,
+        6203542.5282,
+        218719.0581,
+        6835499.2391
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3009",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        56294.0365,
+        6203542.5282,
+        218719.0581,
+        6835499.2391
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3010",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=16.5 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        97213.6352,
+        6228930.1419,
+        225141.8681,
+        6916524.0785
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3010",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=16.5 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        97213.6352,
+        6228930.1419,
+        225141.8681,
+        6916524.0785
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3011",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=18 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        96664.5565,
+        6509617.2232,
+        220146.6914,
+        6727103.5879
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3011",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=18 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        96664.5565,
+        6509617.2232,
+        220146.6914,
+        6727103.5879
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3012",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=14.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        30462.5263,
+        6829647.9842,
+        216416.1584,
+        7154168.0208
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3012",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=14.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        30462.5263,
+        6829647.9842,
+        216416.1584,
+        7154168.0208
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3013",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=15.75 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs ",
+      "extent": [
+        34056.6264,
+        6710433.2884,
+        218692.0214,
+        7224144.732
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3013",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=15.75 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs ",
+      "extent": [
+        34056.6264,
+        6710433.2884,
+        218692.0214,
+        7224144.732
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3014",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=17.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        -1420.28,
+        6888655.5779,
+        212669.1333,
+        7459585.3378
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3014",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=17.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        -1420.28,
+        6888655.5779,
+        212669.1333,
+        7459585.3378
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3015",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=18.75 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        58479.4774,
+        6304213.2147,
+        241520.5226,
+        7276832.4419
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3015",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=18.75 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        58479.4774,
+        6304213.2147,
+        241520.5226,
+        7276832.4419
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3016",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=20.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        -93218.3385,
+        7034909.8738,
+        261434.6246,
+        7676279.8691
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3016",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=20.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        -93218.3385,
+        7034909.8738,
+        261434.6246,
+        7676279.8691
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3017",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=21.75 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        67451.0699,
+        7211342.8483,
+        145349.5699,
+        7254837.254
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3017",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=21.75 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        67451.0699,
+        7211342.8483,
+        145349.5699,
+        7254837.254
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3018",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=23.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        38920.7048,
+        7267405.2323,
+        193050.246,
+        7597992.2419
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3018",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=23.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        38920.7048,
+        7267405.2323,
+        193050.246,
+        7597992.2419
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3021",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=15.80827777777778 +k=1 +x_0=1500000 +y_0=0 +ellps=bessel +units=m +no_defs",
+      "extent": [
+        1392811.0743,
+        6208496.7665,
+        1570600.8906,
+        7546077.6984
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3021",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=15.80827777777778 +k=1 +x_0=1500000 +y_0=0 +ellps=bessel +units=m +no_defs",
+      "extent": [
+        1392811.0743,
+        6208496.7665,
+        1570600.8906,
+        7546077.6984
+      ],
+      "units": null
+    }
+  ],
+  "tools": [
+    {
+      "type": "layerswitcher",
+      "options": {
+        "baselayers": [
+          {
+            "id": "58",
+            "visibleAtStart": true,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "72",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "83",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "199",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "108",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "202",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "438",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "435",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "437",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "436",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "201",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "109",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "110",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "112",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "111",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          }
+        ],
+        "groups": [
+          {
+            "id": "1532b727-ca3d-6400-96ef-161e9d91da84",
+            "parent": "-1",
+            "name": "Förebyggande enheten",
+            "toggled": false,
+            "expanded": false,
+            "layers": [
+              {
+                "id": "465",
+                "visibleAtStart": false,
+                "drawOrder": 2,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "497",
+                "visibleAtStart": false,
+                "drawOrder": 1,
+                "visibleForGroups": [],
+                "infobox": ""
+              }
+            ],
+            "groups": [
+              {
+                "id": "a1a06f7b-9e07-a345-95a4-2b87c24223ea",
+                "parent": "1532b727-ca3d-6400-96ef-161e9d91da84",
+                "name": "Områden",
+                "toggled": false,
+                "expanded": false,
+                "layers": [
+                  {
+                    "id": "498",
+                    "visibleAtStart": false,
+                    "drawOrder": 5,
+                    "visibleForGroups": [],
+                    "infobox": ""
+                  }
+                ],
+                "groups": [
+                  {
+                    "id": "e14187bb-536c-6b1b-39fb-80c25a76854e",
+                    "parent": "a1a06f7b-9e07-a345-95a4-2b87c24223ea",
+                    "name": "Postnummerområden",
+                    "toggled": true,
+                    "expanded": true,
+                    "layers": [
+                      {
+                        "id": "499",
+                        "visibleAtStart": false,
+                        "drawOrder": 3,
+                        "visibleForGroups": [],
+                        "infobox": ""
+                      },
+                      {
+                        "id": "500",
+                        "visibleAtStart": false,
+                        "drawOrder": 4,
+                        "visibleForGroups": [],
+                        "infobox": ""
+                      }
+                    ],
+                    "groups": []
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "instruction": "RGVuIGjkciBrYXJ0YW4gaW5uZWjlbGxlciBsYWdlciBlZnRlciD2bnNrZW3lbCBmcuVuIHNvY2lhbGb2cnZhbHRuaW5nZW4u",
+        "active": true,
+        "visibleAtStart": true,
+        "backgroundSwitcherBlack": false,
+        "backgroundSwitcherWhite": true,
+        "toggleAllButton": true,
+        "dropdownThemeMaps": true,
+        "themeMapHeaderCaption": null,
+        "visibleForGroups": []
+      },
+      "index": 0
+    },
+    {
+      "type": "preset",
+      "options": {
+        "presetList": [
+          {
+            "name": "Översiktsplan 2030",
+            "presetUrl": "?m=op"
+          },
+          {
+            "name": "Bygglovskartan",
+            "presetUrl": "?m=bl"
+          },
+          {
+            "name": "Städ- och måltidskarta",
+            "presetUrl": "?m=sm"
+          }
+        ],
+        "instruction": "SW5zdHJ1a3Rpb24gc25hYmJ2YWw=",
+        "visibleForGroups": []
+      },
+      "index": 70
+    },
+    {
+      "type": "location",
+      "options": {},
+      "index": 102
+    },
+    {
+      "type": "infoclick",
+      "options": {
+        "displayPopup": true,
+        "markerImg": "assets/icons/marker.png",
+        "anchor": [
+          16,
+          32
+        ],
+        "imgSize": [
+          32,
+          32
+        ],
+        "popupOffsetY": 0
+      },
+      "index": 101
+    },
+    {
+      "type": "search",
+      "options": {
+        "onMap": true,
+        "bothSynlig": true,
+        "toolbar": "bottom",
+        "maxZoom": 14,
+        "markerImg": "/assets/icons/marker.png",
+        "kmlExportUrl": "/mapservice/export/kml",
+        "excelExportUrl": "/mapservice/export/excel",
+        "displayPopup": true,
+        "selectionTools": true,
+        "base64Encode": false,
+        "instruction": "SW5zdHJ1a3Rpb24gZvZyIHP2a3BhbmVsZW4=",
+        "filterVisible": true,
+        "anchor": [
+          16,
+          32
+        ],
+        "imgSize": [
+          32,
+          32
+        ],
+        "popupOffsetY": -16,
+        "visibleForGroups": [],
+        "layers": [
+          {
+            "id": "46",
+            "visibleForGroups": []
+          },
+          {
+            "id": "69",
+            "visibleForGroups": []
+          },
+          {
+            "id": "213",
+            "visibleForGroups": []
+          }
+        ]
+      },
+      "index": 2
+    },
+    {
+      "type": "anchor",
+      "options": {
+        "instruction": ""
+      },
+      "index": 3
+    },
+    {
+      "type": "streetview",
+      "options": {
+        "apiKey": "AIzaSyCKG_5l4ly4uSnk7hTXxQz8q-FYsIhR7gA",
+        "instruction": "",
+        "visibleForGroups": []
+      },
+      "index": 1
+    },
+    {
+      "type": "draw",
+      "options": {
+        "exportUrl": "/mapservice/export/kml",
+        "importUrl": "/mapservice/import/kml",
+        "base64Encode": false,
+        "instruction": "",
+        "icons": "",
+        "proxyUrl": ""
+      },
+      "index": 50
+    },
+    {
+      "type": "information",
+      "options": {
+        "text": "<p>Det här är en första version av <i>Socialförvaltningens</i> karta. </p>\n\n<p>Klicka runt och bekanta dig med den nya kartan och dess funktioner, men ha i åtanke att det här är en beta-version.</p> \n\n<p>Du kommer säkert hitta brister och stöta på funktioner som inte fungerar ännu, men vår förhoppning är att du ändå kan hitta saker du gillar och som gör att du kommer att använda den nya kartan i ditt dagliga arbete!</p>\n\n<p>Kommentera gärna direkt till någon GIS:are eller <a href=\"mailto:git.gis@halmstad.se\">lägg ett mail</a> med dina kommentarer och synpunkter.</p>\n\n<p>Hälsningar från oss på GIS! :)</p>",
+        "headerText": "Välkommen till Socialförvaltningens karta!",
+        "visibleAtStart": true,
+        "showInfoOnce": true,
+        "base64EncodeForInfotext": false,
+        "visibleForGroups": []
+      },
+      "index": 100
+    },
+    {
+      "type": "export",
+      "options": {
+        "exportUrl": "/mapservice/export/pdf",
+        "exportTiffUrl": "/mapservice/export/tiff",
+        "pdfActive": true,
+        "tiffActive": true,
+        "base64Encode": false,
+        "autoScale": false,
+        "scales": [
+          250,
+          500,
+          1000,
+          2500,
+          5000,
+          10000,
+          25000,
+          50000,
+          100000,
+          250000
+        ],
+        "proxyUrl": "",
+        "instruction": ""
+      },
+      "index": 99
+    },
+    {
+      "type": "buffer",
+      "options": {
+        "instruction": "",
+        "varbergVer": false
+      },
+      "index": 55
+    },
+    {
+      "type": "routing",
+      "options": {
+        "apiKey": "AIzaSyCKG_5l4ly4uSnk7hTXxQz8q-FYsIhR7gA",
+        "instruction": "",
+        "visibleForGroups": []
+      },
+      "index": 0
+    }
+  ],
+  "map": {
+    "target": "map",
+    "center": [
+      110600,
+      6283796
+    ],
+    "title": "Socialförvaltningen (beta)",
+    "projection": "EPSG:3008",
+    "zoom": 2,
+    "maxZoom": 0,
+    "minZoom": 9,
+    "resolutions": [
+      55.999999999999993,
+      27.999999999999996,
+      13.999999999999998,
+      6.9999999999999991,
+      2.8,
+      1.4,
+      0.55999999999999994,
+      0.28,
+      0.112,
+      0.056
+    ],
+    "origin": [
+      81394.931067557744,
+      6268045.9605340268
+    ],
+    "extent": [
+      81394.931067557744,
+      6268045.9605340268,
+      139898.91125035787,
+      6314907.3857185328
+    ],
+    "logo": "assets/logo.png",
+    "infologo": "",
+    "geoserverLegendOptions": "fontName:Lato;fontAntiAliasing:true;fontColor:0x000033;fontSize:14;bgColor:0xFFFFFF;dpi:90;forceLabels:on",
+    "mobileleft": null,
+    "mobileright": null,
+    "pil": null,
+    "mobile": false,
+    "colors": {
+      "primaryColor": "#014a94",
+      "secondaryColor": "#ffffff"
+    }
+  }
+}

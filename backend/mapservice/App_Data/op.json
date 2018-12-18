@@ -1,0 +1,1367 @@
+{
+  "version": "1.0.5",
+  "projections": [
+    {
+      "code": "EPSG:3006",
+      "definition": "+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        181896.33,
+        6101648.07,
+        864416.0,
+        7689478.3
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3006",
+      "definition": "+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        181896.33,
+        6101648.07,
+        864416.0,
+        7689478.3
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3007",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=12 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        60436.5084,
+        6192389.565,
+        217643.4713,
+        6682784.4276
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3007",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=12 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        60436.5084,
+        6192389.565,
+        217643.4713,
+        6682784.4276
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3008",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=13.5 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs ",
+      "extent": [
+        60857.4994,
+        6120098.8505,
+        223225.0217,
+        6906693.7888
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3008",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=13.5 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs ",
+      "extent": [
+        60857.4994,
+        6120098.8505,
+        223225.0217,
+        6906693.7888
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3009",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        56294.0365,
+        6203542.5282,
+        218719.0581,
+        6835499.2391
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3009",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        56294.0365,
+        6203542.5282,
+        218719.0581,
+        6835499.2391
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3010",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=16.5 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        97213.6352,
+        6228930.1419,
+        225141.8681,
+        6916524.0785
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3010",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=16.5 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        97213.6352,
+        6228930.1419,
+        225141.8681,
+        6916524.0785
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3011",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=18 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        96664.5565,
+        6509617.2232,
+        220146.6914,
+        6727103.5879
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3011",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=18 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        96664.5565,
+        6509617.2232,
+        220146.6914,
+        6727103.5879
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3012",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=14.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        30462.5263,
+        6829647.9842,
+        216416.1584,
+        7154168.0208
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3012",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=14.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        30462.5263,
+        6829647.9842,
+        216416.1584,
+        7154168.0208
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3013",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=15.75 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs ",
+      "extent": [
+        34056.6264,
+        6710433.2884,
+        218692.0214,
+        7224144.732
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3013",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=15.75 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs ",
+      "extent": [
+        34056.6264,
+        6710433.2884,
+        218692.0214,
+        7224144.732
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3014",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=17.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        -1420.28,
+        6888655.5779,
+        212669.1333,
+        7459585.3378
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3014",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=17.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        -1420.28,
+        6888655.5779,
+        212669.1333,
+        7459585.3378
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3015",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=18.75 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        58479.4774,
+        6304213.2147,
+        241520.5226,
+        7276832.4419
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3015",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=18.75 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        58479.4774,
+        6304213.2147,
+        241520.5226,
+        7276832.4419
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3016",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=20.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        -93218.3385,
+        7034909.8738,
+        261434.6246,
+        7676279.8691
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3016",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=20.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        -93218.3385,
+        7034909.8738,
+        261434.6246,
+        7676279.8691
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3017",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=21.75 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        67451.0699,
+        7211342.8483,
+        145349.5699,
+        7254837.254
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3017",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=21.75 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        67451.0699,
+        7211342.8483,
+        145349.5699,
+        7254837.254
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3018",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=23.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        38920.7048,
+        7267405.2323,
+        193050.246,
+        7597992.2419
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3018",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=23.25 +k=1 +x_0=150000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+      "extent": [
+        38920.7048,
+        7267405.2323,
+        193050.246,
+        7597992.2419
+      ],
+      "units": null
+    },
+    {
+      "code": "EPSG:3021",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=15.80827777777778 +k=1 +x_0=1500000 +y_0=0 +ellps=bessel +units=m +no_defs",
+      "extent": [
+        1392811.0743,
+        6208496.7665,
+        1570600.8906,
+        7546077.6984
+      ],
+      "units": null
+    },
+    {
+      "code": "http://www.opengis.net/gml/srs/epsg.xml#3021",
+      "definition": "+proj=tmerc +lat_0=0 +lon_0=15.80827777777778 +k=1 +x_0=1500000 +y_0=0 +ellps=bessel +units=m +no_defs",
+      "extent": [
+        1392811.0743,
+        6208496.7665,
+        1570600.8906,
+        7546077.6984
+      ],
+      "units": null
+    }
+  ],
+  "tools": [
+    {
+      "type": "layerswitcher",
+      "options": {
+        "baselayers": [
+          {
+            "id": "58",
+            "visibleAtStart": true,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "72",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "83",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "199",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "108",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "202",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "201",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "109",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "110",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "112",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          },
+          {
+            "id": "111",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": [],
+            "infobox": ""
+          }
+        ],
+        "groups": [
+          {
+            "id": "641b08d9-a17d-f174-65c4-c8e55ebeb49b",
+            "parent": "-1",
+            "name": "Höjda havsnivåer vid extremväder",
+            "toggled": true,
+            "expanded": false,
+            "layers": [
+              {
+                "id": "223",
+                "visibleAtStart": false,
+                "drawOrder": 32,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "224",
+                "visibleAtStart": false,
+                "drawOrder": 31,
+                "visibleForGroups": [],
+                "infobox": ""
+              }
+            ],
+            "groups": []
+          },
+          {
+            "id": "f3bf1f23-a919-597a-9c86-b5f2d3e236d9",
+            "parent": "-1",
+            "name": "Ställningstagande",
+            "toggled": true,
+            "expanded": false,
+            "layers": [
+              {
+                "id": "301",
+                "visibleAtStart": false,
+                "drawOrder": 99,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "300",
+                "visibleAtStart": false,
+                "drawOrder": 98,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "284",
+                "visibleAtStart": false,
+                "drawOrder": 97,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "291",
+                "visibleAtStart": false,
+                "drawOrder": 96,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "303",
+                "visibleAtStart": false,
+                "drawOrder": 95,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "293",
+                "visibleAtStart": false,
+                "drawOrder": 94,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "302",
+                "visibleAtStart": false,
+                "drawOrder": 93,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "304",
+                "visibleAtStart": false,
+                "drawOrder": 92,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "305",
+                "visibleAtStart": false,
+                "drawOrder": 91,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "307",
+                "visibleAtStart": false,
+                "drawOrder": 90,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "292",
+                "visibleAtStart": false,
+                "drawOrder": 89,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "283",
+                "visibleAtStart": false,
+                "drawOrder": 88,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "282",
+                "visibleAtStart": false,
+                "drawOrder": 69,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "449",
+                "visibleAtStart": false,
+                "drawOrder": 4,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "295",
+                "visibleAtStart": false,
+                "drawOrder": 72,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "294",
+                "visibleAtStart": false,
+                "drawOrder": 71,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "281",
+                "visibleAtStart": false,
+                "drawOrder": 75,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "278",
+                "visibleAtStart": false,
+                "drawOrder": 74,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "308",
+                "visibleAtStart": false,
+                "drawOrder": 77,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "310",
+                "visibleAtStart": false,
+                "drawOrder": 76,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "297",
+                "visibleAtStart": false,
+                "drawOrder": 67,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "248",
+                "visibleAtStart": false,
+                "drawOrder": 13,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "299",
+                "visibleAtStart": false,
+                "drawOrder": 79,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "298",
+                "visibleAtStart": false,
+                "drawOrder": 80,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "285",
+                "visibleAtStart": false,
+                "drawOrder": 82,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "289",
+                "visibleAtStart": false,
+                "drawOrder": 70,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "309",
+                "visibleAtStart": false,
+                "drawOrder": 65,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "279",
+                "visibleAtStart": false,
+                "drawOrder": 63,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "288",
+                "visibleAtStart": false,
+                "drawOrder": 64,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "296",
+                "visibleAtStart": false,
+                "drawOrder": 68,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "306",
+                "visibleAtStart": false,
+                "drawOrder": 78,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "290",
+                "visibleAtStart": false,
+                "drawOrder": 83,
+                "visibleForGroups": [],
+                "infobox": ""
+              }
+            ],
+            "groups": []
+          },
+          {
+            "id": "c9288540-c648-108b-df8f-f717dba18964",
+            "parent": "-1",
+            "name": "Kustkarta",
+            "toggled": true,
+            "expanded": false,
+            "layers": [
+              {
+                "id": "220",
+                "visibleAtStart": false,
+                "drawOrder": 24,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "221",
+                "visibleAtStart": false,
+                "drawOrder": 26,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "219",
+                "visibleAtStart": false,
+                "drawOrder": 27,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "222",
+                "visibleAtStart": false,
+                "drawOrder": 28,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "215",
+                "visibleAtStart": false,
+                "drawOrder": 29,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "218",
+                "visibleAtStart": false,
+                "drawOrder": 30,
+                "visibleForGroups": [],
+                "infobox": ""
+              }
+            ],
+            "groups": []
+          },
+          {
+            "id": "ceb9c030-92d9-24ed-31e9-0969844f17a7",
+            "parent": "-1",
+            "name": "Skyddad värdefull natur- och kulturmiljö",
+            "toggled": true,
+            "expanded": false,
+            "layers": [
+              {
+                "id": "277",
+                "visibleAtStart": false,
+                "drawOrder": 49,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "265",
+                "visibleAtStart": false,
+                "drawOrder": 50,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "266",
+                "visibleAtStart": false,
+                "drawOrder": 51,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "276",
+                "visibleAtStart": false,
+                "drawOrder": 52,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "267",
+                "visibleAtStart": false,
+                "drawOrder": 53,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "271",
+                "visibleAtStart": false,
+                "drawOrder": 54,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "268",
+                "visibleAtStart": false,
+                "drawOrder": 55,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "269",
+                "visibleAtStart": false,
+                "drawOrder": 56,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "270",
+                "visibleAtStart": false,
+                "drawOrder": 57,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "272",
+                "visibleAtStart": false,
+                "drawOrder": 59,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "273",
+                "visibleAtStart": false,
+                "drawOrder": 60,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "274",
+                "visibleAtStart": false,
+                "drawOrder": 61,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "275",
+                "visibleAtStart": false,
+                "drawOrder": 62,
+                "visibleForGroups": [],
+                "infobox": ""
+              }
+            ],
+            "groups": []
+          },
+          {
+            "id": "19ddd695-e686-4d5a-10fe-e56ba5c9c475",
+            "parent": "-1",
+            "name": "Vindkraft",
+            "toggled": true,
+            "expanded": false,
+            "layers": [
+              {
+                "id": "312",
+                "visibleAtStart": false,
+                "drawOrder": 84,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "313",
+                "visibleAtStart": false,
+                "drawOrder": 85,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "314",
+                "visibleAtStart": false,
+                "drawOrder": 87,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "315",
+                "visibleAtStart": false,
+                "drawOrder": 86,
+                "visibleForGroups": [],
+                "infobox": ""
+              }
+            ],
+            "groups": []
+          },
+          {
+            "id": "bbdc2d93-d0d8-bcb3-a5fa-a4f4e8112a88",
+            "parent": "-1",
+            "name": "Risk och Hänsyn",
+            "toggled": true,
+            "expanded": false,
+            "layers": [
+              {
+                "id": "241",
+                "visibleAtStart": false,
+                "drawOrder": 7,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "242",
+                "visibleAtStart": false,
+                "drawOrder": 25,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "254",
+                "visibleAtStart": false,
+                "drawOrder": 36,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "246",
+                "visibleAtStart": false,
+                "drawOrder": 47,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "244",
+                "visibleAtStart": false,
+                "drawOrder": 3,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "257",
+                "visibleAtStart": false,
+                "drawOrder": 66,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "258",
+                "visibleAtStart": false,
+                "drawOrder": 73,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "256",
+                "visibleAtStart": false,
+                "drawOrder": 81,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "259",
+                "visibleAtStart": false,
+                "drawOrder": 2,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "260",
+                "visibleAtStart": false,
+                "drawOrder": 5,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "263",
+                "visibleAtStart": false,
+                "drawOrder": 6,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "264",
+                "visibleAtStart": false,
+                "drawOrder": 1,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "262",
+                "visibleAtStart": false,
+                "drawOrder": 8,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "261",
+                "visibleAtStart": false,
+                "drawOrder": 9,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "250",
+                "visibleAtStart": false,
+                "drawOrder": 10,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "255",
+                "visibleAtStart": false,
+                "drawOrder": 11,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "249",
+                "visibleAtStart": false,
+                "drawOrder": 12,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "243",
+                "visibleAtStart": false,
+                "drawOrder": 15,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "247",
+                "visibleAtStart": false,
+                "drawOrder": 16,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "253",
+                "visibleAtStart": false,
+                "drawOrder": 17,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "245",
+                "visibleAtStart": false,
+                "drawOrder": 18,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "251",
+                "visibleAtStart": false,
+                "drawOrder": 19,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "252",
+                "visibleAtStart": false,
+                "drawOrder": 14,
+                "visibleForGroups": [],
+                "infobox": ""
+              }
+            ],
+            "groups": []
+          },
+          {
+            "id": "20f6055a-3808-7f8c-c73e-e9c26e94204d",
+            "parent": "-1",
+            "name": "Försvarsintressen",
+            "toggled": true,
+            "expanded": false,
+            "layers": [
+              {
+                "id": "214",
+                "visibleAtStart": false,
+                "drawOrder": 58,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "217",
+                "visibleAtStart": false,
+                "drawOrder": 48,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "216",
+                "visibleAtStart": false,
+                "drawOrder": 23,
+                "visibleForGroups": [],
+                "infobox": ""
+              }
+            ],
+            "groups": []
+          },
+          {
+            "id": "37c37674-84d9-8326-0640-1d9a2db0097d",
+            "parent": "-1",
+            "name": "Riksintressen",
+            "toggled": true,
+            "expanded": false,
+            "layers": [
+              {
+                "id": "240",
+                "visibleAtStart": false,
+                "drawOrder": 33,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "239",
+                "visibleAtStart": false,
+                "drawOrder": 34,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "237",
+                "visibleAtStart": false,
+                "drawOrder": 35,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "227",
+                "visibleAtStart": false,
+                "drawOrder": 37,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "226",
+                "visibleAtStart": false,
+                "drawOrder": 38,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "228",
+                "visibleAtStart": false,
+                "drawOrder": 39,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "233",
+                "visibleAtStart": false,
+                "drawOrder": 40,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "229",
+                "visibleAtStart": false,
+                "drawOrder": 41,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "230",
+                "visibleAtStart": false,
+                "drawOrder": 42,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "231",
+                "visibleAtStart": false,
+                "drawOrder": 43,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "236",
+                "visibleAtStart": false,
+                "drawOrder": 44,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "232",
+                "visibleAtStart": false,
+                "drawOrder": 45,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "235",
+                "visibleAtStart": false,
+                "drawOrder": 46,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "234",
+                "visibleAtStart": false,
+                "drawOrder": 20,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "238",
+                "visibleAtStart": false,
+                "drawOrder": 21,
+                "visibleForGroups": [],
+                "infobox": ""
+              },
+              {
+                "id": "225",
+                "visibleAtStart": false,
+                "drawOrder": 22,
+                "visibleForGroups": [],
+                "infobox": ""
+              }
+            ],
+            "groups": []
+          }
+        ],
+        "instruction": "RnJhbXRpZHNwbGFuIDIwMzAgLSBTdHJhdGVnaXNrIPZ2ZXJzaWt0c3BsYW4gZvZyIEhhbG1zdGFkcyBrb21tdW4=",
+        "active": true,
+        "visibleAtStart": true,
+        "backgroundSwitcherBlack": true,
+        "backgroundSwitcherWhite": true,
+        "toggleAllButton": true,
+        "dropdownThemeMaps": true,
+        "themeMapHeaderCaption": null,
+        "visibleForGroups": []
+      },
+      "index": 0
+    },
+    {
+      "type": "search",
+      "options": {
+        "onMap": false,
+        "bothSynlig": false,
+        "toolbar": "bottom",
+        "maxZoom": 14,
+        "markerImg": "/assets/icons/marker.png",
+        "kmlExportUrl": "/mapservice/export/kml",
+        "excelExportUrl": "/mapservice/export/excel",
+        "displayPopup": false,
+        "selectionTools": false,
+        "base64Encode": false,
+        "instruction": "",
+        "filterVisible": false,
+        "anchor": [
+          16,
+          32
+        ],
+        "imgSize": [
+          32,
+          32
+        ],
+        "popupOffsetY": 0,
+        "visibleForGroups": [],
+        "layers": [
+          {
+            "id": "379",
+            "visibleForGroups": []
+          },
+          {
+            "id": "69",
+            "visibleForGroups": []
+          }
+        ]
+      },
+      "index": 0
+    },
+    {
+      "type": "infoclick",
+      "options": {
+        "displayPopup": false,
+        "markerImg": "assets/icons/marker.png",
+        "anchor": [
+          16,
+          32
+        ],
+        "imgSize": [
+          32,
+          32
+        ],
+        "popupOffsetY": 0
+      },
+      "index": 0
+    },
+    {
+      "type": "measure",
+      "options": {
+        "instruction": "",
+        "icons": ""
+      },
+      "index": 0
+    },
+    {
+      "type": "anchor",
+      "options": {
+        "instruction": "",
+        "visibleForGroups": []
+      },
+      "index": 0
+    },
+    {
+      "type": "export",
+      "options": {
+        "exportUrl": "/mapservice/export/pdf",
+        "exportTiffUrl": "/mapservice/export/tiff",
+        "pdfActive": true,
+        "tiffActive": true,
+        "base64Encode": false,
+        "autoScale": false,
+        "scales": [
+          250,
+          500,
+          1000,
+          2500,
+          5000,
+          10000,
+          25000,
+          50000,
+          100000,
+          250000
+        ],
+        "proxyUrl": "",
+        "instruction": "",
+        "visibleForGroups": []
+      },
+      "index": 0
+    },
+    {
+      "type": "location",
+      "options": {
+        "visibleForGroups": []
+      },
+      "index": 0
+    },
+    {
+      "type": "buffer",
+      "options": {
+        "instruction": "",
+        "varbergVer": false,
+        "geoserverUrl": "",
+        "notFeatureLayers": [],
+        "visibleForGroups": []
+      },
+      "index": 0
+    },
+    {
+      "type": "streetview",
+      "options": {
+        "apiKey": "AIzaSyCb-bvLmybNb4QSERR43eGlvvQyUrBAQG4",
+        "instruction": "",
+        "visibleForGroups": []
+      },
+      "index": 0
+    },
+    {
+      "type": "draw",
+      "options": {
+        "exportUrl": "/mapservice/export/kml",
+        "importUrl": "/mapservice/import/kml",
+        "base64Encode": false,
+        "instruction": "",
+        "icons": "",
+        "proxyUrl": "",
+        "visibleForGroups": []
+      },
+      "index": 0
+    }
+  ],
+  "map": {
+    "target": "map",
+    "center": [
+      110600,
+      6283796
+    ],
+    "title": "Översiktsplan 2030",
+    "projection": "EPSG:3008",
+    "zoom": 1,
+    "maxZoom": 0,
+    "minZoom": 9,
+    "resolutions": [
+      55.999999999999993,
+      27.999999999999996,
+      13.999999999999998,
+      6.9999999999999991,
+      2.8,
+      1.4,
+      0.55999999999999994,
+      0.28,
+      0.112,
+      0.056
+    ],
+    "origin": [
+      81394.931067557744,
+      6268045.9605340268
+    ],
+    "extent": [
+      81394.931067557744,
+      6268045.9605340268,
+      139898.91125035787,
+      6314907.3857185328
+    ],
+    "logo": "assets/logo.png",
+    "infologo": "",
+    "geoserverLegendOptions": "fontName:Lato;fontAntiAliasing:true;fontColor:0x333333;fontSize:14;dpi:90;forceLabels:on",
+    "mobileleft": null,
+    "mobileright": null,
+    "pil": "",
+    "mobile": true,
+    "colors": {
+      "primaryColor": "#4e4e4e",
+      "secondaryColor": "#ffffff"
+    }
+  }
+}

@@ -12,3 +12,5 @@ admin/package-lock.json
 .idea/
 client.zip
 client/src/static/assets/logo.png
+logs/
+Logs/
