@@ -2,45 +2,42 @@ import React from "react";
 import { createPortal } from "react-dom";
 import { withStyles } from "@material-ui/core/styles";
 import { ListItem, ListItemIcon, ListItemText } from "@material-ui/core";
-import DrawIcon from "@material-ui/icons/Edit";
-import DrawView from "./DrawView";
-import DrawModel from "./DrawModel";
+import PrintIcon from "@material-ui/icons/Print";
+import ExportView from "./ExportView";
+import ExportModel from "./ExportModel";
 import Observer from "react-event-observer";
 import Panel from "../../components/Panel.js";
-import "./draw.css";
 
 const styles = theme => {
   return {};
 };
 
-class Draw extends React.PureComponent {
+class Export extends React.PureComponent {
   state = {
-    panelOpen: this.props.options.visibleAtStart,
-    top: 0
+    panelOpen: this.props.options.visibleAtStart
   };
 
   onClick = e => {
     this.app.onPanelOpen(this);
+    this.exportModel.displayPreview = true;
     this.setState({
-      panelOpen: true,
-      top: e.currentTarget.offsetTop + "px"
+      panelOpen: true
     });
-    this.drawModel.setActive(true);
   };
 
   closePanel = () => {
+    this.exportModel.displayPreview = false;
     this.setState({
       panelOpen: false
     });
-    this.drawModel.setActive(false);
   };
 
   constructor(props) {
     super(props);
-    this.text = "Ritverktyg";
+    this.text = "Exportera karta";
     this.app = props.app;
     this.localObserver = Observer();
-    this.drawModel = new DrawModel({
+    this.exportModel = new ExportModel({
       map: props.map,
       app: props.app,
       options: props.options,
@@ -57,11 +54,11 @@ class Draw extends React.PureComponent {
         position="left"
         open={this.state.panelOpen}
         top={this.state.top}
-        height="500px"
+        height="325px"
       >
-        <DrawView
+        <ExportView
           localObserver={this.localObserver}
-          model={this.drawModel}
+          model={this.exportModel}
           parent={this}
         />
       </Panel>,
@@ -86,7 +83,7 @@ class Draw extends React.PureComponent {
           }}
         >
           <ListItemIcon>
-            <DrawIcon />
+            <PrintIcon />
           </ListItemIcon>
           <ListItemText primary={this.text} />
         </ListItem>
@@ -108,4 +105,4 @@ class Draw extends React.PureComponent {
   }
 }
 
-export default withStyles(styles)(Draw);
+export default withStyles(styles)(Export);

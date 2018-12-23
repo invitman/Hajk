@@ -66,7 +66,7 @@ class Dialog extends Component {
 
   handleClose = e => {
     e.stopPropagation();
-    this.props.onClose();
+    this.props.onClose(this.state.text);
   };
 
   handleDialogClick = e => {
@@ -81,7 +81,15 @@ class Dialog extends Component {
   }
 
   renderDialogContent(text) {
-    return <span dangerouslySetInnerHTML={this.getHtml(text)} />;
+    if (typeof text === "string") {
+      return (
+        <DialogContentText>
+          <span dangerouslySetInnerHTML={this.getHtml(text)} />
+        </DialogContentText>
+      );
+    } else {
+      return text;
+    }
   }
 
   renderPromptInput() {
@@ -107,7 +115,7 @@ class Dialog extends Component {
         autoComplete="off"
         onSubmit={e => {
           e.preventDefault();
-          this.props.onClose();
+          this.props.onClose(this.state.text);
           return false;
         }}
       >
@@ -146,9 +154,7 @@ class Dialog extends Component {
       >
         <DialogTitle id="responsive-dialog-title">{header}</DialogTitle>
         <DialogContent>
-          <DialogContentText>
-            {this.renderDialogContent(text)}
-          </DialogContentText>
+          {this.renderDialogContent(text)}
           {this.renderPromptInput()}
         </DialogContent>
         <DialogActions>

@@ -2,18 +2,17 @@ import React from "react";
 import { createPortal } from "react-dom";
 import { withStyles } from "@material-ui/core/styles";
 import { ListItem, ListItemIcon, ListItemText } from "@material-ui/core";
-import DrawIcon from "@material-ui/icons/Edit";
-import DrawView from "./DrawView";
-import DrawModel from "./DrawModel";
+import StreetviewIcon from "@material-ui/icons/Streetview";
+import StreetViewView from "./StreetViewView";
+import StreetViewModel from "./StreetViewModel";
 import Observer from "react-event-observer";
 import Panel from "../../components/Panel.js";
-import "./draw.css";
 
 const styles = theme => {
   return {};
 };
 
-class Draw extends React.PureComponent {
+class StreetView extends React.PureComponent {
   state = {
     panelOpen: this.props.options.visibleAtStart,
     top: 0
@@ -21,32 +20,42 @@ class Draw extends React.PureComponent {
 
   onClick = e => {
     this.app.onPanelOpen(this);
-    this.setState({
-      panelOpen: true,
-      top: e.currentTarget.offsetTop + "px"
-    });
-    this.drawModel.setActive(true);
+    this.setState(
+      {
+        panelOpen: true
+      },
+      () => this.streetViewModel.activate()
+    );
   };
 
   closePanel = () => {
-    this.setState({
-      panelOpen: false
-    });
-    this.drawModel.setActive(false);
+    this.setState(
+      {
+        panelOpen: false,
+        displayPanorama: false
+      },
+      () => this.streetViewModel.deactivate()
+    );
   };
 
   constructor(props) {
     super(props);
-    this.text = "Ritverktyg";
+    this.text = " Street View";
     this.app = props.app;
     this.localObserver = Observer();
-    this.drawModel = new DrawModel({
+    this.streetViewModel = new StreetViewModel({
       map: props.map,
       app: props.app,
-      options: props.options,
-      localObserver: this.localObserver
+      localObserver: this.localObserver,
+      apiKey: props.options.apiKey
     });
     this.app.registerPanel(this);
+    this.localObserver.on("locationChanged", () => {
+      this.setState({
+        panelOpen: true,
+        displayPanorama: true
+      });
+    });
   }
 
   renderPanel() {
@@ -57,12 +66,13 @@ class Draw extends React.PureComponent {
         position="left"
         open={this.state.panelOpen}
         top={this.state.top}
-        height="500px"
+        height="325px"
       >
-        <DrawView
+        <StreetViewView
           localObserver={this.localObserver}
-          model={this.drawModel}
+          model={this.streetViewModel}
           parent={this}
+          displayPanorama={this.state.displayPanorama}
         />
       </Panel>,
       document.getElementById("map-overlay")
@@ -86,7 +96,7 @@ class Draw extends React.PureComponent {
           }}
         >
           <ListItemIcon>
-            <DrawIcon />
+            <StreetviewIcon />
           </ListItemIcon>
           <ListItemText primary={this.text} />
         </ListItem>
@@ -108,4 +118,4 @@ class Draw extends React.PureComponent {
   }
 }
 
-export default withStyles(styles)(Draw);
+export default withStyles(styles)(StreetView);

@@ -82,6 +82,7 @@ class Route extends React.PureComponent {
     this.setState({
       panelOpen: false
     });
+    this.routeModel.onCloseTab();
   };
 
   constructor(spec) {

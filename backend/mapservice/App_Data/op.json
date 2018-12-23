@@ -314,13 +314,98 @@
     {
       "type": "layerswitcher",
       "options": {
-        "baselayers": [],
-        "groups": [],
+        "baselayers": [
+          {
+            "id": "5",
+            "visibleAtStart": true,
+            "drawOrder": 0,
+            "visibleForGroups": null,
+            "infobox": null
+          },
+          {
+            "id": "24",
+            "visibleAtStart": false,
+            "drawOrder": 0,
+            "visibleForGroups": null,
+            "infobox": null
+          }
+        ],
+        "groups": [
+          {
+            "id": "55494619-350f-6f36-0fc2-4fdf3f5cc567",
+            "parent": "-1",
+            "name": "Medborgardialog",
+            "toggled": false,
+            "expanded": false,
+            "layers": [
+              {
+                "id": "15",
+                "visibleAtStart": false,
+                "drawOrder": 8,
+                "visibleForGroups": null,
+                "infobox": null
+              }
+            ],
+            "groups": []
+          },
+          {
+            "id": "9e0e18d0-7c57-0dcd-1582-5e350365aac1",
+            "parent": "-1",
+            "name": "Översiktsplan",
+            "toggled": false,
+            "expanded": false,
+            "layers": [
+              {
+                "id": "22",
+                "visibleAtStart": true,
+                "drawOrder": 7,
+                "visibleForGroups": null,
+                "infobox": null
+              },
+              {
+                "id": "23",
+                "visibleAtStart": true,
+                "drawOrder": 2,
+                "visibleForGroups": null,
+                "infobox": null
+              },
+              {
+                "id": "16",
+                "visibleAtStart": true,
+                "drawOrder": 5,
+                "visibleForGroups": null,
+                "infobox": null
+              },
+              {
+                "id": "14",
+                "visibleAtStart": true,
+                "drawOrder": 6,
+                "visibleForGroups": null,
+                "infobox": null
+              },
+              {
+                "id": "17",
+                "visibleAtStart": true,
+                "drawOrder": 4,
+                "visibleForGroups": null,
+                "infobox": null
+              },
+              {
+                "id": "18",
+                "visibleAtStart": false,
+                "drawOrder": 3,
+                "visibleForGroups": null,
+                "infobox": null
+              }
+            ],
+            "groups": []
+          }
+        ],
         "instruction": "",
         "active": true,
-        "visibleAtStart": true,
+        "visibleAtStart": false,
         "backgroundSwitcherBlack": true,
-        "backgroundSwitcherWhite": true,
+        "backgroundSwitcherWhite": false,
         "toggleAllButton": false,
         "dropdownThemeMaps": false,
         "themeMapHeaderCaption": "",
@@ -329,16 +414,90 @@
       "index": 0
     },
     {
+      "type": "simple_layerswitcher",
+      "options": {
+        "target": "left",
+        "visibleAtStart": false,
+        "visibleForGroups": []
+      },
+      "index": 0
+    },
+    {
+      "type": "collector",
+      "options": {
+        "target": "right",
+        "url": "http://demo.giscloud.se/geoserver/wfs",
+        "featureType": "opinion",
+        "featureNS": "wsp",
+        "visibleAtStart": false,
+        "visibleForGroups": []
+      },
+      "index": 0
+    },
+    {
       "type": "informative",
       "options": {
-        "target": "toolbar",
+        "target": "right",
         "panel": "right",
         "caption": "Översiktsplan",
         "serviceUrl": "http://localhost:55630/informative/load",
-        "abstract": "<div>HTML som beskriver dokumentets innehåll</div>",
-        "document": "op2",
+        "abstract": "<div><div>Genom översiktsplanen talar staden om hur bebyggelse och mark- och vattenanvändning kan utvecklas på lång sikt. Uddevalla ska vara en klimatsmart, växande stad med sammanhållande stadsmiljöer där det byggda och det gröna samspelar. En stad för alla.</div><h2>Vad vill vi uppnå?</h2>Uddevalla ska vara en stad med täta och sammanhållande stadsmiljöer där det byggda och det gröna samspelar.  Översiktsplanen utgår från stadens fyra mål för stadsbyggande.<img src=\"https://images.vastsverige.com/publishedmedia/jue8wzf2g5vrgjoy19xg/Uddevalla_170728-0082-Edit.jpg\"></div>",
+        "document": "op",
         "visibleAtStart": false,
         "visibleForGroups": []
+      },
+      "index": 0
+    },
+    {
+      "type": "information",
+      "options": {
+        "target": "left",
+        "text": "ajdlkasj kldjas lksdjalk ajldk ajs\nasj \ndkasj d\nasj d\naskj daksj dklasjd lkasj\n\najdkas jdlkasj lkdsaj asj\nd ajkldjas lkdjsa\n\njasdkl jasldk jaskld jalksj\n\nasjd klasjd lkajsdlk as\n\nasdj aksjd sakl",
+        "headerText": "HÄR KAN DU SE VAD SOM PLANERAS I DITT OMRÅDE",
+        "visibleAtStart": true,
+        "showInfoOnce": false,
+        "base64EncodeForInfotext": false,
+        "visibleForGroups": []
+      },
+      "index": 0
+    },
+    {
+      "type": "search",
+      "options": {
+        "target": "center",
+        "onMap": false,
+        "bothSynlig": false,
+        "enableViewTogglePopupInSnabbsok": true,
+        "toolbar": "bottom",
+        "maxZoom": 14,
+        "markerImg": "http://localhost/hajk/assets/icons/marker.png",
+        "kmlExportUrl": "/mapservice/export/kml",
+        "excelExportUrl": "/mapservice/export/excel",
+        "displayPopup": true,
+        "selectionTools": true,
+        "base64Encode": false,
+        "instruction": "",
+        "filterVisible": true,
+        "anchor": [
+          16,
+          32
+        ],
+        "imgSize": [
+          32,
+          32
+        ],
+        "popupOffsetY": 0,
+        "visibleForGroups": [],
+        "layers": [],
+        "selectedSources": [
+          "18",
+          "17",
+          "14",
+          "16",
+          "22",
+          "23",
+          "15"
+        ]
       },
       "index": 0
     }
@@ -346,12 +505,12 @@
   "map": {
     "target": "map",
     "center": [
-      414962,
-      6583005
+      416000,
+      6583000
     ],
-    "title": "map_2",
+    "title": "op",
     "projection": "EPSG:3006",
-    "zoom": 3,
+    "zoom": 12,
     "maxZoom": 3,
     "minZoom": 9,
     "resolutions": [
@@ -375,12 +534,12 @@
       0.0
     ],
     "extent": [
-      150202.0,
-      6382100.0,
-      209944.0,
-      6471028.0
+      0.0,
+      6000000.0,
+      1000000.0,
+      9000000.0
     ],
-    "logo": "",
+    "logo": "assets/logo.png",
     "infologo": "",
     "geoserverLegendOptions": "",
     "mobileleft": null,
@@ -389,8 +548,8 @@
     "mobile": false,
     "mapselector": false,
     "colors": {
-      "primaryColor": "#1B78CC",
-      "secondaryColor": "#FFF"
+      "primaryColor": "#0065a6",
+      "secondaryColor": "#ffcc00"
     }
   }
 }
